@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar h1 {
+    color: #14027c;
+}
+.navbar {
+
+    width: 85%;
+    margin: auto;
+    padding :25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li {
+    font-style: sans-serif;
+    display :inline-block;
+    margin: 0 20px;
+    position :relative;
+    font-weight: bold;
+}
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(43, 226, 104);
+}
